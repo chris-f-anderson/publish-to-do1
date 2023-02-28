@@ -12,7 +12,7 @@ with:
 registry: ghcr.io
 username: ${{ github.actor }}
 password: ${{ secrets.GITHUB_TOKEN }}
-- name: Build the techno2 Docker image
+- name: Build the do1 Docker image
 run: |
        docker build . --tag ghcr.io/chris-f-anderson/hello-d-o-1:latest
        docker run ghcr.io/chris-f-anderson/hello-d-o-1:latest
