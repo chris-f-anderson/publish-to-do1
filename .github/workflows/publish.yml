@@ -1,4 +1,4 @@
-# publishing my docker image to github container registry - substituting Hello D.O.1 for hello-docker
+
 name: publish
 on: [push]
 jobs:
